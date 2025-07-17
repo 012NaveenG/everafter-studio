@@ -78,7 +78,7 @@ const Hero = () => {
 
                 </div>
                 <div className="flex flex-cols items-center justify-center mb-2 w-full">
-                    <AnimatedTooltip items={people} />
+                    <AnimatedTooltip items={clients} />
                 </div>
                 <p className="opacity-80">Trusted by 100+ clients</p>
             </div>
@@ -90,48 +90,49 @@ const Hero = () => {
 
 export default Hero
 
-
-const people = [
+const clients = [
     {
         id: 1,
-        name: "John Doe",
+        name: "Ankit Sharma",
         designation: "Software Engineer",
         image:
-            "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
+            "https://images.unsplash.com/photo-1610088441520-4352457e7095?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
     },
     {
         id: 2,
-        name: "Robert Johnson",
-        designation: "Product Manager",
+        name: "Sneha Verma",
+        designation: "Doctor",
         image:
-            "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+            "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         id: 3,
-        name: "Jane Smith",
-        designation: "Data Scientist",
+        name: "Amit Patel",
+        designation: "Chartered Accountant",
         image:
-            "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+            "https://images.unsplash.com/photo-1549880338-65ddcdfd017b?auto=format&fit=crop&w=800&q=80",
     },
     {
         id: 4,
-        name: "Emily Davis",
-        designation: "UX Designer",
+        name: "Pooja Singh",
+        designation: "Entrepreneur",
         image:
-            "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+            "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=800&q=80",
     },
     {
         id: 5,
-        name: "Tyler Durden",
-        designation: "Soap Developer",
+        name: "Rohan Mehta",
+        designation: "Teacher",
         image:
-            "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
+            "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80",
     },
     {
         id: 6,
-        name: "Dora",
-        designation: "The Explorer",
+        name: "Kavya Deshmukh",
+        designation: "Banker",
         image:
-            "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3534&q=80",
+            "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=800&q=80",
+
     },
 ];

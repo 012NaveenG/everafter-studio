@@ -2,7 +2,7 @@
 
 **EverAfter Studio** is a visually stunning, fully responsive landing page designed for a fictional wedding photography business. Built using the latest web technologies, this project demonstrates a real-world, production-ready frontend application.
 
-🌐 **Live Demo**: [https://everafter-landing.vercel.app](https://everafter-landing.vercel.app)
+🌐 **Live Demo**: [https://everafter-studio.vercel.app/](https://everafter-studio.vercel.app/)
 
 ---
 

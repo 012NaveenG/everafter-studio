@@ -1,5 +1,6 @@
 "use client";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 const AboutUs = () => {
     return (
         <section
@@ -24,7 +25,7 @@ const AboutUs = () => {
                             About EverAfter Studio
                         </h2>
                         <p className="mt-4 text-base sm:text-lg text-gray-600 dark:text-gray-300">
-                            Every love story is unique, and we’re here to tell yours through timeless, elegant, and emotionally rich photography.
+                            Every love story is unique, and we are here to tell yours through timeless, elegant, and emotionally rich photography.
                         </p>
                     </div>
 
@@ -49,7 +50,9 @@ const AboutUs = () => {
                         </div>
 
                         <div className="w-full h-56 rounded-xl overflow-hidden shadow-xl">
-                            <img
+                            <Image
+                            width={100}
+                            height={100}
                                 src="https://images.unsplash.com/photo-1583878545126-2f1ca0142714?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                                 alt="EverAfter Team at work"
                                 className="w-full h-full object-cover"

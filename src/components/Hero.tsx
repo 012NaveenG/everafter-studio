@@ -53,7 +53,7 @@ const Hero = () => {
                         }}
                         className="relative z-10 mx-auto max-w-xl py-4 text-center text-lg font-normal text-neutral-600 dark:text-neutral-400"
                     >
-                        At EverAfter Studio, we don’t just take pictures — we tell love stories. From heartfelt weddings to joyful celebrations, we frame every emotion so you can relive your special day forever.
+                        At EverAfter Studio, we do not just take pictures — we tell love stories. From heartfelt weddings to joyful celebrations, we frame every emotion so you can relive your special day forever.
                     </motion.p>
                     <motion.div
                         initial={{

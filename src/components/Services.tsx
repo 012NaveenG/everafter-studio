@@ -74,7 +74,7 @@ const Services = () => {
                 <p className="text-sm sm:text-base max-w-2xl mt-4 sm:mt-6 mx-auto text-neutral-500 text-center font-normal dark:text-neutral-300">
                     We offer a wide range of wedding photography services to make your
                     big day unforgettable — from pre-wedding vibes to tearful farewells,
-                    we’re there to capture it all.
+                    we are there to capture it all.
                 </p>
             </div>
 

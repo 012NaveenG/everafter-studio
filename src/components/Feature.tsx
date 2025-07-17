@@ -62,7 +62,9 @@ const Feature = () => {
                   className="object-cover w-full h-full"
                 />
               ) : (
-                <img
+                <Image
+                  width={100}
+                  height={100}
                   src={img.src}
                   alt={`Wedding ${i + 1}`}
                   className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
